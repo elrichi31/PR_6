@@ -89,10 +89,11 @@ public class DownloadTask extends AsyncTask<String, Void, ArrayList<Nasa>> {
 
     @Override
     protected void onPostExecute(ArrayList<Nasa> nasaList) {
-        // Aquí debes agregar el código necesario para mostrar los objetos Nasa en tu aplicación
         MainActivity activity = (MainActivity) context;
         activity.setupAdapter(nasaList);
+        NasaDataSingleton.getInstance().updateData(nasaList);
     }
+
 
 }
 
