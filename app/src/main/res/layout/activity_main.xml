@@ -15,4 +15,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!-- Agrega este botón al final del archivo -->
+        <Button
+            android:id="@+id/button_open_image_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Abrir cuadrícula de imágenes" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

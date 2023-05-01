@@ -11,20 +11,23 @@
         android:layout_height="wrap_content"
         android:text="Title"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:hint="Titulo"/>
 
     <TextView
         android:id="@+id/tv_http"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="http://"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:hint="http://"/>
 
     <TextView
         android:id="@+id/tv_url"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="http://"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:hint="http://"/>
 
 </LinearLayout>
